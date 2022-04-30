@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://phonoteka.org/uploads/posts/2021-05/1621578659_6-phonoteka_org-p-krasivii-fon-anime-zakat-7.jpg");
+}
+
+.message {
+    display: flex;
+    background-color: #d9cfcf;
+    border-radius: 15px;
+    width: 600px;
+    padding: 10px 20px;
+    margin: 10px auto 0;
+}
+
+.message > img {
+    height: 60px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-right: 15px;
+}
+
+.messageContent {
+    display: flex;
+    padding: 20px 15px;
+    background-color: #9f2525;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+
+.messageContent::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #9f2525;
+}
+
+.nameAndTextMessage > p {
+    margin-top: 20px;
+    margin-right: 18px;
+}
+
+.time {
+    margin-top: auto;
+}

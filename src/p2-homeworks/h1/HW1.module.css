@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    margin: 0 20px;
+}
+
+.navbar {
+    width: 150px;
+    background-color: #d9cfcf;
+    border-radius:  0 0 10px 10px;
+    padding: 10px 15px;
+    margin-right: 20px;
+    text-align: center;
+    color: #070606;
+}
+.navbar>span:hover{
+    color: gold;
+    cursor: default;
+}
